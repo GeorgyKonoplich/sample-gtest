@@ -11,3 +11,6 @@ link_directories(${BOOST_LIBRARYDIR})
 
 add_executable(test test.cpp)
 target_link_libraries(test ${GTEST_BOTH_LIBRARIES})
+
+add_executable(test2 test2.cpp)
+target_link_libraries(test2 ${GTEST_LIBRARY})
